@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0c7c90;
+    color: #FFF;
+}
+
+header {
+    background-color: #1679aa;
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 2rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+.form-section, .contacts-section {
+    background-color: #b88112;
+    padding: 1.5rem;
+    margin: 1rem 0;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 500px;
+}
+
+h2 {
+    color: #6a3300;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin: 0.5rem 0 0.2rem;
+}
+
+form input {
+    padding: 0.5rem;
+    border: 1px solid #6a4800;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+button {
+    background-color: #0c7c90;
+    color: white;
+    padding: 0.7rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #c78039;
+}
+
+#contactList {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+#contactList p {
+    color: #ffffff;
+}
